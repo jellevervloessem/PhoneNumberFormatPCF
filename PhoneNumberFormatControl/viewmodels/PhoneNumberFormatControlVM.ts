@@ -43,9 +43,9 @@ export class PhoneNumberFormatControlVM {
         return f.Label == this.countryCode;
       });
     } else {
-      this.countryCode = "US";
+      this.countryCode = "BE"; //set to Belgium
       selectedIndex = this.countryCodeOptions.findIndex((f) => {
-        return f.Label == "US";
+        return f.Label == "BE";
       });
     }
     if (selectedIndex === -1) {

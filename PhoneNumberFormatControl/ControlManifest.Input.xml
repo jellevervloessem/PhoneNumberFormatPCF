@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="DynamicConsulting" constructor="PhoneNumberFormatControl" version="1.0.47" display-name-key="Phone Number Format Control" description-key="Phone Number format control based on Google Phone Library" control-type="standard" preview-image="img/preview.png" >
-    <property name="phoneNumber" display-name-key="Phone Number" description-key="A phone number" of-type="SingleLine.Phone" usage="bound" required="true" />    
-    <property name="countryCode" display-name-key="Country Code" description-key="The country code" of-type="SingleLine.Text" usage="bound" required="true" />    
+  <control namespace="DynamicConsulting" constructor="PhoneNumberFormatControl" version="1.0.50" display-name-key="Phone Number Format Control" description-key="Phone Number format control based on Google Phone Library" control-type="standard" preview-image="img/preview.png">
+    <property name="phoneNumber" display-name-key="Phone Number" description-key="A phone number" of-type="SingleLine.Phone" usage="bound" required="true" />
+    <property name="countryCode" display-name-key="Country Code" description-key="The country code" of-type="SingleLine.Text" usage="bound" required="true" />
     <resources>
-      <code path="index.ts" order="1"/>
+      <code path="index.ts" order="1" />
       <css path="css/PhoneNumberFormatControl.css" order="1" />
       <css path="css/flag-icon.min.css" order="2" />
       <resx path="strings/PhoneNumberFormatControl.1033.resx" version="1.0.0" />
@@ -524,7 +524,7 @@
       <img path="flags\4x3\za.svg" />
       <img path="flags\4x3\zm.svg" />
       <img path="flags\4x3\zw.svg" />
-    </resources>    
+    </resources>
     <feature-usage>
       <uses-feature name="Device.captureAudio" required="true" />
       <uses-feature name="Device.captureImage" required="true" />
